@@ -18,6 +18,8 @@ CIすることを見据えて、コマンドラインビルドできるように
     * [Robolectric][3] - JVM上でJUnit4テストができるように
 * jar持ってくるの面倒だったからpomに入れたもの
     * [Mockito][4]
+* 上手く再現できなかったこと
+    * `BuildConfig#isDebug`による`DevelopmentModule`と`ProductionModule`の切り替え(res/values/roboguice.xmlでModuleを指定しているため)
     
 動かす際の前準備
 ----------------
