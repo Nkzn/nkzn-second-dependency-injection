@@ -26,6 +26,17 @@ CIすることを見据えて、コマンドラインビルドできるように
 
 pom.xmlにあるAndroid SDKのdependencyは↑を使って事前にローカルリポジトリに入れておく。
 
+注意点
+------
+
+EclipseからRunできることを目的にしなかったのでたぶんEclipseではビルドできません。
+
+実機にインストールしたい場合は
+
+`mvn clean install android:deploy android:run -Dandroid.device=usb`
+
+とかコマンドラインで打ち込んでください。
+
 [0]:http://d.hatena.ne.jp/esmasui/20121130/1354275028
 [1]:https://github.com/esmasui/underdevelopment/tree/master/my-first-dependency-injection
 [2]:http://code.google.com/p/roboguice/
