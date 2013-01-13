@@ -10,7 +10,7 @@
 	<properties>
 		<platform.version>4.0.3_r3</platform.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        </properties>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -40,10 +40,13 @@
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-core</artifactId>
 			<version>1.9.5</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
 	<build>
+	    <sourceDirectory>src/main/java</sourceDirectory>
+	    <testSourceDirectory>src/test/java</testSourceDirectory>
 		<plugins>
 			<plugin>
 				<groupId>com.jayway.maven.plugins.android.generation2</groupId>
