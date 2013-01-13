@@ -2,8 +2,6 @@
 <resources>
 
     <string name="app_name">はじめてのDI</string>
-    <string name="app_name_non_di">DIじゃない</string>
-    <string name="app_name_self_di">じぶんでDI</string>
     <string name="weather_unknown">不明</string>
     <string name="label_kawasaki">川崎</string>
     <string name="label_yokohama">横浜</string>

@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>jp.water_cel.android</groupId>
-	<artifactId>nkzn-first-dependency-injection</artifactId>
+	<artifactId>nkzn-second-dependency-injection</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>apk</packaging>
-	<name>nkzn-first-dependency-injection</name>
+	<name>nkzn-second-dependency-injection</name>
 
 	<properties>
 		<platform.version>4.0.3_r3</platform.version>

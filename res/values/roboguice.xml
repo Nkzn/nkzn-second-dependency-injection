@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="roboguice_modules">
+	    <item>jp.water_cell.android.second.di.config.DevelopmentModule</item>
+	</string-array>    
+</resources>
